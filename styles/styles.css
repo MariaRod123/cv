@@ -1,0 +1,153 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html {
+    color:#222;
+    font-family:'Courier New', Courier, monospace;
+    line-height: 1.5;
+
+}
+
+body{
+    padding: 2rem 2.5rem;
+    background: linear-gradient(#d14a4a, #515ab8);
+
+}
+
+h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+    padding: 0.75rem 0;
+    margin-bottom: 2rem;
+
+}
+h3{
+    font-size: 1rem;
+    color:#CC0F4F;
+    /*margin-bottom: 1rem;*/
+}
+
+
+p {
+    line-height: 1.5 ;
+}
+
+section + section {
+
+    margin-top: 2rem;
+
+}
+
+li + li{
+    margin-top: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+    font-size: 1rem;
+}
+
+ul {
+    list-style:none;
+}
+
+.profile {
+    text-align: center;
+}
+
+
+.profile img{
+    border-radius: 9999px;
+    width: 15rem;
+    height: 15rem;
+}
+
+.profile p{
+    margin-bottom: 1rem;
+    color:#CC0F4F;
+    font-size: 1.25rem;
+}
+
+.contact ul {
+    margin-top: -2rem;
+
+}
+
+
+
+.contact li {
+    text-align: left;
+    padding: 1rem;
+    color:#2c2c2c;
+    border-bottom: 1px solid #888 ;
+    font-size: 1rem;
+
+}
+.timeline .event + .event{
+    padding-top: 1rem;
+
+}
+
+.timeline .event {
+    display:grid;
+    grid-template-columns: 5ch 1fr;
+
+}
+
+.timeline .content {
+    border-left: 1px solid #888;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+
+.content > h3 + p  {
+    margin-bottom: 1rem;
+    color:#333;
+
+}
+
+.resume {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-gap: 4rem;
+    background-color: #ffffff;
+    padding: 3rem; 
+    max-width: 1000px;  
+    margin: auto;
+}
+
+#btn_naranja{
+    background-color: orange;
+    color:#ffffff;
+    border: 0px;
+    width: 80px;
+    height:19px;
+} 
+
+#btn_verde{
+    background-color: green;
+    color: #ffffff;
+    border: 0px;
+    width: 80px;
+    height:19px;
+}
+
+#btn_gris{
+    background-color: grey;
+    color:#ffffff;
+    border: 0px;
+    width: 80px;
+    height:19px;
+}
+
+
